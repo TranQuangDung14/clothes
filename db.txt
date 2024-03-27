@@ -1,0 +1,23 @@
+tài khoản
+users			:name, email, number_phone, address, lock, role
+
+Sản phẩm
+clt_categories 		: name, description, image
+clt_products   		: name, category_id, brand_id, description, price, evaluate, sold
+size   	       		: name
+color  	       		: name
+image	       		: name, product_id
+clt_brands      	: name, description, image
+product_variant_quantity: size_id, color_id, product_id, batch_id ,quantity, import_price
+clt_product_batch	: name, 
+
+
+Đơn hàng
+clt_carts		: user_id, user_name, user_address, number_phone, total_money
+clt_cart_details	: cart_id, product_id, quantity, price
+clt_orders 		: user_id, user_name, user_address, number_phone, total_money,real_money, shipping_price, status, note
+clt_order_details	: order_id, product_id, quantity, price
+	
+	
+liên hệ
+clt_contact

@@ -24,4 +24,5 @@ facebook    : https://www.facebook.com/quang.dungg.dev
 - edit file .env DATABASE entry
 - Go to mysql and create a db with the corresponding name
 - run ``  php artisan migrate:fresh --seed `` để cài đặt db và tạo dữ liệu mẫu
+- run `` php artisan storage:link ``
 - run `` php artisan serve `` để chạy project 

@@ -66,7 +66,7 @@
 							</p>
 
 							<span class="stext-111 cl8">
-								- Steve Job’s
+								- Steve Job’ss
 							</span>
 						</div>
 					</div>
